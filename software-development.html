@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+	<meta name="author" content="" />
+	<title>Software Development | Haricot Technologies</title>
+	<!-- Favicon Icon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" />
+	<!-- Bootstrap-3 Minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+	<!-- AOS Minified CSS -->
+	<link rel="stylesheet" href="css/aos.min.css" type="text/css" />
+	<!-- Slick Slider Minified CSS -->
+	<link rel="stylesheet" href="css/slick.min.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick-theme.min.css" type="text/css" />
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<!-- Media CSS -->
+	<link rel="stylesheet" href="css/media.css" type="text/css" />
+</head>
+<body>
+	<!-- Window Loader Section Starts -->
+  <div id="overlay">
+    <div id="progstat"></div>
+    <div class="window-loader-icon">
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 266 264" style="enable-background:new 0 0 266 264;" xml:space="preserve"><g><g><path class="st-loader" d="M92.89,29.83c5.68-9.27,10.73-18.52,14.89-27.59H92.89V29.83z"/><path class="st-loader" d="M32.72,2.24H2.23v129.62c10.08-7.9,20.38-17.04,30.49-27.03V2.24z"/></g><g><path class="st-loader" d="M32.72,104.83c-10.1,9.99-20.4,19.13-30.49,27.03v1.16c0,25.09,7.08,48.52,19.33,68.43c3.63-1.94,7.36-4.14,11.16-6.57V104.83z"/><path class="st-loader" d="M92.89,97.19h37.71c21.74-30.96,37.37-63.17,39.53-89.57c-11.78-3.48-24.22-5.38-37.13-5.38h-25.23c-4.16,9.06-9.2,18.32-14.89,27.59V97.19z"/></g><g><path class="st-loader" d="M92.89,157.36v79.71c26.75-19.35,55.84-48.44,79.42-79.71H92.89z"/><path class="st-loader" d="M173.12,97.19V8.59c-0.99-0.32-1.98-0.67-2.99-0.97c-2.16,26.4-17.79,58.61-39.53,89.57H173.12z"/><path class="st-loader" d="M32.72,194.88c-3.8,2.43-7.53,4.63-11.16,6.57c3.34,5.42,7.09,10.56,11.16,15.42V194.88z"/></g><g><path class="st-loader" d="M233.3,49.18v141.57c13.5-19.97,24.31-40.29,30.46-59.08C263.43,100.27,252.03,71.56,233.3,49.18z"/><path class="st-loader" d="M173.12,157.36h-0.81c-23.58,31.27-52.68,60.36-79.42,79.71v20.38c12.64,4.09,26.11,6.34,40.12,6.34h37.09c1.01-0.92,2.02-1.9,3.03-2.85V157.36z"/></g><g><path class="st-loader" d="M263.75,131.67c-6.15,18.79-16.96,39.11-30.46,59.08v73.05h30.49V133.02C263.79,132.57,263.76,132.12,263.75,131.67z"/><path class="st0" d="M173.12,260.95c-1.01,0.95-2.02,1.92-3.03,2.85h3.03V260.95z"/></g></g></svg>
+		</div>
+    <div id="progress"></div>
+  </div>
+  <!-- Window Loader Section Ends -->
+	<!-- Mobile Header Section Starts -->
+	<div class="container-fluid bg-header-mobile">
+		<div class="row flex-align-center-desktop">
+			<div class="col-xs-7">
+				<div class="mobile-header-logo">
+					<a href="index.html">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 933 277" style="enable-background:new 0 0 933 277;" xml:space="preserve"><g id="Logo"><g><g><path class="st0" d="M98.46,35.31c5.68-9.27,10.73-18.52,14.89-27.59H98.46V35.31z"/><path class="st0" d="M38.29,7.72H7.8v129.62c10.08-7.9,20.38-17.04,30.49-27.03V7.72z"/></g><g><path class="st1" d="M38.29,110.31c-10.1,9.99-20.4,19.13-30.49,27.03v1.16c0,25.09,7.08,48.52,19.33,68.43c3.63-1.94,7.36-4.14,11.16-6.57V110.31z"/><path class="st1" d="M98.46,102.67h37.71c21.74-30.96,37.37-63.17,39.53-89.57c-11.78-3.48-24.22-5.38-37.13-5.38h-25.23c-4.16,9.06-9.2,18.32-14.89,27.59V102.67z"/></g><g><path class="st2" d="M98.46,162.84v79.71c26.75-19.35,55.84-48.44,79.42-79.71H98.46z"/><path class="st2" d="M178.69,102.67v-88.6c-0.99-0.32-1.98-0.67-2.99-0.97c-2.16,26.4-17.79,58.61-39.53,89.57H178.69z"/><path class="st2" d="M38.29,200.36c-3.8,2.43-7.53,4.63-11.16,6.57c3.34,5.42,7.09,10.56,11.16,15.42V200.36z"/></g><g><path class="st3" d="M238.87,54.66v141.57c13.5-19.97,24.31-40.29,30.46-59.08C269,105.75,257.6,77.04,238.87,54.66z"/><path class="st3" d="M178.69,162.84h-0.81c-23.58,31.27-52.68,60.36-79.42,79.71v20.38c12.64,4.09,26.11,6.34,40.12,6.34h37.09c1.01-0.92,2.02-1.9,3.03-2.85V162.84z"/></g><g><path class="st4" d="M269.32,137.15c-6.15,18.79-16.96,39.11-30.46,59.08v73.05h30.49V138.5C269.35,138.05,269.33,137.6,269.32,137.15z"/><path class="st4" d="M178.69,266.43c-1.01,0.95-2.02,1.92-3.03,2.85h3.03V266.43z"/></g></g><text transform="matrix(1 0 0 1 311.362 120.9468)"><tspan x="0" y="0" class="st5 st6 st7 st8">Haricot</tspan><tspan x="0" y="80" class="st2 st6 st7 st8">Technologies</tspan></text></g></svg>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-5">
+				<div class="hamburger-menu pull-right">
+					<div class="burger-menu">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Mobile Header Section Ends -->
+	<!-- Mobile Navbar Menu Section Starts -->
+	<div class="fixed-navbar-menu-mobile">
+		<ul class="menu-listing-mobile">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li class="active">
+				<a href="#">Services <i class="fas fa-angle-down"></i></a>
+				<ul class="mobile-submenu-listing">
+					<li><a href="website-development.html">Website Development</a></li>
+					<li><a href="software-development.html">Software Development</a></li>
+					<li><a href="app-development.html">App Development</a></li>
+					<li><a href="seo-digital-marketing.html">SEO and Digital Marketing</a></li>
+					<li><a href="cloud-hosting.html">Cloud Hosting</a></li>
+					<li><a href="graphic-design.html">Graphic Design</a></li>
+				</ul>
+			</li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="career.html">Career</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</div>
+	<!-- Mobile Navbar Menu Section Ends -->
+	<!-- Desktop Logo and Navigationbar Menu Section Starts -->
+	<div class="container-fluid bg-logo-navbar-menu-desktop">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center-desktop">
+					<div class="col-sm-4 col-md-3 col-lg-3">
+						<div class="desktop-header-logo">
+							<a href="index.html">
+								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 933 277" style="enable-background:new 0 0 933 277;" xml:space="preserve"><g id="Logo"><g><g><path class="st0" d="M98.46,35.31c5.68-9.27,10.73-18.52,14.89-27.59H98.46V35.31z"/><path class="st0" d="M38.29,7.72H7.8v129.62c10.08-7.9,20.38-17.04,30.49-27.03V7.72z"/></g><g><path class="st1" d="M38.29,110.31c-10.1,9.99-20.4,19.13-30.49,27.03v1.16c0,25.09,7.08,48.52,19.33,68.43c3.63-1.94,7.36-4.14,11.16-6.57V110.31z"/><path class="st1" d="M98.46,102.67h37.71c21.74-30.96,37.37-63.17,39.53-89.57c-11.78-3.48-24.22-5.38-37.13-5.38h-25.23c-4.16,9.06-9.2,18.32-14.89,27.59V102.67z"/></g><g><path class="st2" d="M98.46,162.84v79.71c26.75-19.35,55.84-48.44,79.42-79.71H98.46z"/><path class="st2" d="M178.69,102.67v-88.6c-0.99-0.32-1.98-0.67-2.99-0.97c-2.16,26.4-17.79,58.61-39.53,89.57H178.69z"/><path class="st2" d="M38.29,200.36c-3.8,2.43-7.53,4.63-11.16,6.57c3.34,5.42,7.09,10.56,11.16,15.42V200.36z"/></g><g><path class="st3" d="M238.87,54.66v141.57c13.5-19.97,24.31-40.29,30.46-59.08C269,105.75,257.6,77.04,238.87,54.66z"/><path class="st3" d="M178.69,162.84h-0.81c-23.58,31.27-52.68,60.36-79.42,79.71v20.38c12.64,4.09,26.11,6.34,40.12,6.34h37.09c1.01-0.92,2.02-1.9,3.03-2.85V162.84z"/></g><g><path class="st4" d="M269.32,137.15c-6.15,18.79-16.96,39.11-30.46,59.08v73.05h30.49V138.5C269.35,138.05,269.33,137.6,269.32,137.15z"/><path class="st4" d="M178.69,266.43c-1.01,0.95-2.02,1.92-3.03,2.85h3.03V266.43z"/></g></g><text transform="matrix(1 0 0 1 311.362 120.9468)"><tspan x="0" y="0" class="st5 st6 st7 st8">Haricot</tspan><tspan x="0" y="80" class="st2 st6 st7 st8">Technologies</tspan></text></g></svg>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-8 col-md-9 col-lg-9">
+						<div class="navbar-menu-desktop">
+							<ul class="desktop-menu-listing">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About Us</a></li>
+								<li class="active">
+									<a href="#">Services <i class="fas fa-angle-down"></i></a>
+									<ul class="desktop-submenu-listing">
+										<li><a href="website-development.html">Website Development</a></li>
+										<li><a href="software-development.html">Software Development</a></li>
+										<li><a href="app-development.html">App Development</a></li>
+										<li><a href="seo-digital-marketing.html">SEO and Digital Marketing</a></li>
+										<li><a href="cloud-hosting.html">Cloud Hosting</a></li>
+										<li><a href="graphic-design.html">Graphic Design</a></li>
+									</ul>
+								</li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="team.html">Team</a></li>
+								<li><a href="career.html">Career</a></li>
+								<li><a href="contact.html">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Desktop Logo and Navigationbar Menu Section Ends -->
+	<!-- Banner Section Starts -->
+	<div class="container-fluid bg-inner-banner">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-right" data-aos-duration="1000">
+						<div class="inner-banner-heading">
+							<h1>Our Services</h1>
+							<p><a href="index.html">Home</a><span>|</span><a href="software-development.html" class="active">Software Development</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Banner Section Ends -->
+	<!-- Services Section Starts -->
+	<div class="container-fluid bg-services-sp">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+						<div class="services-heading-sp">
+							<h4>Featured Services</h4>
+							<h2>Best Services Offer From <span>Haricot Technolohgy</span></h2>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+						<div class="services-desc-sp">
+							<p>Haricot Technologies is a systems consultancy and software development company which provides the very best bespoke software to our clients to suit their individual requirements.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Services Section Ends -->
+	<!-- Services Information Section Starts -->
+	<div class="container-fluid bg-services-info-sp">
+		<div class="row">
+			<div class="container">
+				<div class="row flex-align-center-desktop display-block-mobile display-block-tab">
+					<div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+						<div class="services-information-heading-mobile-sp">
+							<h2>Software Development</h2>
+						</div>
+						<div class="services-information-img-sp">
+							<img src="images/software-development-image.png" class="img-responsive" alt="" />
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="1000">
+						<div class="services-information-heading-sp">
+							<h2>Software Development</h2>
+							<p>We provide relevant and efficient business solutions by using the latest developments in information technology and are proud to have worked with some outstanding companies.</p>
+							<p>Our primary focus is the development of Custom Software for unique business situations, providing necessary integrated management tools. If you can imagine it we can make it happen. Where no 'off the shelf' product exists we can provide a tailored solution, or if you have an 'off the shelf' product, we can integrate add-ons to it.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Services Information Section Starts -->
+	<!-- Our Process Section Starts -->
+	<div class="container-fluid bg-our-process-sp">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-up" data-aos-duration="1000">
+						<div class="our-process-heading text-center">
+							<h2 id="servicesProcess" class="services-process">Software Development Process</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-up" data-aos-duration="1000">
+						<ul class="process-listing">
+							<li>
+								<div class="box-process-info box-software-development-process-info-1">
+									<div class="box-process-img box-software-development-process-img-1">
+										<img src="images/project-management-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name"><p>Project <span>Management</span></p></div>
+							</li>
+							<li>
+								<div class="box-process-info box-software-development-process-info-2">
+									<div class="box-process-img box-software-development-process-img-2">
+										<img src="images/business-analysis-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name"><p>Business <span>Analysis</span></p></div>
+							</li>
+							<li>
+								<div class="box-process-info box-software-development-process-info-3">
+									<div class="box-process-img box-software-development-process-img-3">
+										<img src="images/system-analysis-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name"><p>System <span>Analysis</span></p></div>
+							</li>
+							<li>
+								<div class="box-process-info box-software-development-process-info-4">
+									<div class="box-process-img box-software-development-process-img-4">
+										<img src="images/website-design-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name"><p>Design</p></div>
+							</li>
+							<li>
+								<div class="box-process-info box-software-development-process-info-5">
+									<div class="box-process-img box-software-development-process-img-5">
+										<img src="images/website-development-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name"><p>Website <span>Development</span></p></div>
+							</li>
+							<li>
+								<div class="box-process-info box-software-development-process-info-6">
+									<div class="box-process-img box-software-development-process-img-6">
+										<img src="images/testing-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name"><p>Testing</p></div>
+							</li>
+							<li>
+								<div class="box-process-info box-software-development-process-info-7">
+									<div class="box-process-img box-software-development-process-img-7">
+										<img src="images/launch-process-icon.png" class="img-responsive" alt="" />
+									</div>
+								</div>
+								<div class="box-process-name box-process-name-last"><p>Launch</p></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Our Process Section Ends -->
+	<!-- Why Choose Us Section Starts -->
+	<div class="container-fluid bg-why-choose-us-sp">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-up" data-aos-duration="1000">
+						<div class="why-choose-us-heading-sp text-center">
+							<h2 id="whyChooseServices" class="why-choose-services">Why Choose Us</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row flex-align-center-desktop display-block-mobile">
+					<div class="col-sm-6 col-sm-push-6 col-md-6 col-md-push-6 col-lg-6 col-lg-push-6" data-aos="fade-up" data-aos-duration="1000">
+						<div class="why-choose-us-servies-img-sp">
+							<img src="images/why-choose-us-6.png" class="img-responsive" alt="" />
+						</div>
+					</div>
+					<div class="col-sm-6 col-sm-pull-6 col-md-6 col-md-pull-6 col-lg-6 col-lg-pull-6" data-aos="fade-up" data-aos-duration="1000">
+						<div class="why-choose-us-info-sp">
+							<h3>There are Multiple Reasons to <span>Choose Us :</span></h3>
+							<ul class="why-chose-us-listing-sp">
+								<li>Competitive Cost</li>
+								<li>Product Orientation</li>
+								<li>Our Experienced Team</li>
+								<li>Customization according to your needs</li>
+								<li>Use of Advanced technology</li>
+								<li>Understanding your Vision</li>
+								<li>Excellent and Reliable Customer Service</li>
+								<li>Result Oriented</li>
+								<li>One-Stop Destination</li>
+								<li>We are in for long Haul</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Why Choose Us Section Ends -->
+	<!-- Technology Section Starts -->
+	<div class="container-fluid bg-technology-sp">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-up" data-aos-duration="1000">
+						<div class="technology-heading-sp text-center">
+							<h2 id="technologyWeUse" class="technology-we-use">Technology We Use</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp box-technologies-circle-sp-1">
+								<img src="images/html.png" class="img-responsive" alt="" />
+							</div>
+							<h3>HTML-5</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp box-technologies-circle-sp-2">
+								<img src="images/css.png" class="img-responsive" alt="" />
+							</div>
+							<h3>CSS-3</h3>
+						</div>
+					</div>
+					<div class="visible-sm clearfix"></div>
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp">
+								<img src="images/angular-js.png" class="img-responsive" alt="" />
+							</div>
+							<h3>Angular JS</h3>
+						</div>
+					</div>
+					<div class="visible-md visible-lg clearfix"></div>
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp">
+								<img src="images/php.png" class="img-responsive" alt="" />
+							</div>
+							<h3>PHP</h3>
+						</div>
+					</div>
+					<div class="visible-sm clearfix"></div>
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp">
+								<img src="images/asp-net.png" class="img-responsive" alt="" />
+							</div>
+							<h3>Asp.Net</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp">
+								<img src="images/laravel.png" class="img-responsive" alt="" />
+							</div>
+							<h3>Laravel</h3>
+						</div>
+					</div>
+					<div class="visible-sm visible-md visible-lg clearfix"></div>
+					<div class="col-sm-6 col-sm-offset-0 col-md-4 col-md-offset-2 col-lg-4 col-lg-offset-2" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp">
+								<img src="images/magento.png" class="img-responsive" alt="" />
+							</div>
+							<h3>Magento</h3>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+						<div class="box-technologies-sp">
+							<div class="dots-pattern-sp">
+								<img src="images/dots.png" class="img-responsive" alt="" />
+							</div>
+							<div class="box-technologies-circle-sp">
+								<img src="images/codeignitor.png" class="img-responsive" alt="" />
+							</div>
+							<h3>CoeIgnitor</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Technology Section Ends -->
+	<!-- Testimonials Section Starts -->
+	<div class="container-fluid bg-testimonials-home bg-testimonials-ip">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-up" data-aos-duration="1000">
+						<div class="testimonials-heading-home">
+							<h4>Testimonials</h4>
+							<h2 id="clientReviewHome" class="client-review-home">We are very glad to get <span>client's review</span></h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12" data-aos="fade-up" data-aos-duration="1000">
+						<div class="slick-slider-testimonials-home slick-slider-testimonials-ip">
+							<div>
+								<div class="box-testimonials-info box-testimonials-info-ip">
+									<div class="box-testimonials-img box-testimonials-img-ip">
+										<img src="images/testimonial-1.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="box-testimonials-quote box-testimonials-quote-ip">
+										<i class="fas fa-quote-left"></i>
+									</div>
+									<div class="box-testimonials-desc box-software-services-testimonials-desc">
+										<p>Following an agile methodology, The Haricot Technologies delivered the project within four months, and it's now being tested by the internal team. The CMS is expected to be pivotal in improving content creation workflows. Customers can expect a well-prepared partner with high technical ability.</p>
+										<h3>Tihomir Sablic</h3>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="box-testimonials-info box-testimonials-info-ip">
+									<div class="box-testimonials-img box-testimonials-img-ip">
+										<img src="images/testimonial-2.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="box-testimonials-quote box-testimonials-quote-ip">
+										<i class="fas fa-quote-left"></i>
+									</div>
+									<div class="box-testimonials-desc box-software-services-testimonials-desc">
+										<p>Attributing the project’s success to the quality and speed of the deliverables The Haricot Technologies has provided, internal stakeholders are extremely pleased with the engagement so far. The team is diligent, fully engaged with the project, and well-managed.</p>
+										<h3>Adam Cooper</h3>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="box-testimonials-info box-testimonials-info-ip">
+									<div class="box-testimonials-img box-testimonials-img-ip">
+										<img src="images/testimonial-3.jpg" class="img-responsive" alt="" />
+									</div>
+									<div class="box-testimonials-quote box-testimonials-quote-ip">
+										<i class="fas fa-quote-left"></i>
+									</div>
+									<div class="box-testimonials-desc box-software-services-testimonials-desc">
+										<p>Although there are no metrics to quantify the success of this partnership, Haricot Technologies has delivered quality work and has exceeded expectations. With two teams, they’ve managed the project effectively and have collaborated seamlessly. They’re very skilled and experienced.</p>
+										<h3>Elizabeth Franklin</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Testimonials Section Ends -->
+	<!-- Footer Section Starts -->
+	<div class="container-fluid bg-footer-home">
+		<div class="row">
+			<div class="container">
+				<div class="row">
+					<div class="co-xs-12">
+						<div class="bg-footer-quote-home">
+							<div class="row flex-align-center-desktop display-block-mobile">
+								<div class="col-sm-8 col-md-8 col-lg-8">
+									<div class="footer-quote-home">
+										<p>We inspire imagination through our creations.</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-md-4 col-lg-4">
+									<div class="read-view-more footer-contact-read-view-more">
+										<a href="contact.html">Contact Us</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8 col-md-8 col-lg-8">
+						<div class="footer-bs-heading">
+							<h2>Let's Connect and Collaborate</h2>
+							<p>Welcome to haricot technology.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="footer-heading footer-services-heading">
+							<h3>Services</h3>
+							<ul class="footer-services-listing">
+								<li><a href="website-development.html">Website Development</a></li>
+								<li><a href="software-development.html">Software Development</a></li>
+								<li><a href="app-development.html">App Development</a></li>
+								<li><a href="seo-digital-marketing.html">SEO and Digital Marketing</a></li>
+								<li><a href="cloud-hosting.html">Cloud Hosting</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="footer-heading footer-email-heading">
+							<h3>Email Us At</h3>
+							<a href="mailto:info@haricottech.com">info@haricottech.com</a>
+						</div>
+					</div>
+					<div class="col-sm-5 col-md-4 col-lg-4">
+						<div class="footer-heading footer-call-heading">
+							<h3>Call Us On</h3>
+							<a href="tel:+918866899163"><img src="images/india-flag.svg" alt="" /> +91-88-668-99-163</a>
+							<a href="tel:+17044130492"><img src="images/usa-flag.svg" alt="" /> +1(704)-(413)-(0492)</a>
+							<a href="tel:+16475585660"><img src="images/canada-flag.svg" alt="" /> +1(647)-(558)-(5660)</a>
+						</div>
+					</div>
+					<div class="col-sm-3 col-md-4 col-lg-4">
+						<div class="footer-heading footer-social-heading">
+							<h3>Social</h3>
+							<ul class="footer-social-listing">
+								<li><a href="https://www.facebook.com/Haricottech" target="_blank"><i class="fab fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/haricottechnologies/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/haricot-technologies/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://twitter.com/HaricotTech" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="footer-heading">
+							<h3><img src="images/canada-flag.svg" class="img-responsive" alt="" /> Canada</h3>
+							<address>
+								<p>5925 Airport Road,</p>
+								<p>Suite 200,</p>
+								<p>Mississauga,</p>
+								<p>Ontario L4V 1W1</p>
+							</address>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="footer-heading">
+							<h3><img src="images/usa-flag.svg" class="img-responsive" alt="" /> U.S.A.</h3>
+							<address>
+								<p>205 Lorraine Rd,</p>
+								<p>Fort Mill,</p>
+								<p>SC 29708</p>
+							</address>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-4 col-lg-4">
+						<div class="footer-heading">
+							<h3><img src="images/india-flag.svg" class="img-responsive" alt="" /> India</h3>
+							<address>
+								<p>205/B Atlantis k10,</p>
+								<p>Opp. Vadodara Central,</p>
+								<p>Genda Circle,</p>
+								<p>Subhanpura,</p>
+								<p>Vadodara - 390007</p>
+							</address>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer Section Ends -->
+	<!-- Copyright Section Starts -->
+	<div class="container-fluid bg-copyright-home">
+		<div class="row">
+			<div class="container bg-copyright-container-home">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="copyright-info text-center">
+							<p>Copyright © 2020 <a href="index.html">Haricot Technologies.</a> All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Copyright Section Ends -->
+	<!-- jQuery Library -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Smooth Scroll Minified JS -->
+	<script src="js/smooth-scroll.min.js"></script>
+	<!-- AOS Minified JS -->
+	<script src="js/aos.min.js"></script>
+	<!-- Slick Slider Minified JS -->
+	<script src="js/slick.min.js"></script>
+	<!-- GreenSock Animation Platform Minified JS -->
+  <script src="js/gsap.min.js"></script>
+  <!-- ScrollTrigger Minified JS -->
+  <script src="js/ScrollTrigger.min.js"></script>
+  <!-- SplitText Minified JS -->
+  <script src="js/SplitText.min.js"></script>
+	<!-- Website Services Page JS -->
+	<script src="js/website-services-page.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<!-- Testimonial Slider JS -->
+	<script src="js/testimonial-slider.js"></script>
+</body>
+</html>

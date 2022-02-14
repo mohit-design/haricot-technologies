@@ -1,0 +1,1139 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Common CSS Starts -------*/
+
+body.active { overflow: hidden; }
+.display-block-mobile { display: block; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Window Loader Section Starts -------*/
+
+.window-loader-icon > svg { margin: 0 auto; width: 100px; }
+#progstat { font-size: 1.8rem; }
+
+/*------- Window Loader Section Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+	/*------- Mobile Header Section Starts -------*/
+
+.bg-header-mobile { background-color: #fff; display: block; left: 0; padding: 15px; position: -webkit-sticky; position: sticky; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 10; }
+.mobile-header-logo > a { display: block; }
+.mobile-header-logo > a > svg { display: block; width: 170px; }
+
+    /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 50px; position: relative; width: 50px; }
+.burger-menu span { background-color: #01b1ff; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 25px; }
+.burger-menu span:before,
+.burger-menu span:after { content: ""; background-color: #01b1ff; height: 2px; width: 25px; position: absolute; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.burger-menu span:before { top: -10px; }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Header Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #fff; bottom: 0; display: block; clip-path: circle(100px at 90% -20%); height: 100%; left: 0; position: fixed; right: 0; top: 0; -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 9; }
+.fixed-navbar-menu-mobile.active { clip-path: circle(1000px at 90% -10%); }
+.menu-listing-mobile { left: 50%; opacity: 0; position: absolute; top: 40%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; visibility: hidden; width: 100%; z-index: 10; }
+.menu-listing-mobile.active { opacity: 1; top: 50%; -webkit-transition: 1s ease 0.25s; -moz-transition: 1s ease 0.25s; -ms-transition: 1s ease 0.25s; -o-transition: 1s ease 0.25s; transition: 1s ease 0.25s; visibility: visible; }
+.menu-listing-mobile > li { display: block; margin-bottom: 20px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #000; display: block; font: 2rem/1 "Montserrat-Light"; text-align: center; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #01b1ff; }
+.mobile-submenu-listing { background-color: #01b1ff; -webkit-box-shadow: 0px 10px 13px -7px #00000014, 5px 5px 15px 5px rgba(0,0,0,0); -moz-box-shadow: 0px 10px 13px -7px #00000014, 5px 5px 15px 5px rgba(0,0,0,0); -ms-box-shadow: 0px 10px 13px -7px #00000014, 5px 5px 15px 5px rgba(0,0,0,0); -o-box-shadow: 0px 10px 13px -7px #00000014, 5px 5px 15px 5px rgba(0,0,0,0); box-shadow: 0px 10px 13px -7px #00000014, 5px 5px 15px 5px rgba(0,0,0,0); display: none; margin: 15px 0; width: 100%; z-index: 10; }
+.mobile-submenu-listing > li { display: block; padding: 10px 10px 0 10px; text-align: left; }
+.mobile-submenu-listing > li:last-child { padding: 10px; }
+.mobile-submenu-listing > li > a { color: #fff; font: 1.6rem/1.42857143 "Montserrat-Light"; }
+.mobile-submenu-listing > li > a:hover { color: #000; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
+  /*------- Desktop Logo and Navigation bar Menu Section Starts -------*/
+
+.bg-logo-navbar-menu-desktop { display: none; }
+
+	/*------- Desktop Logo and Navigation bar Menu Section Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.banner-info-home { margin: 15px 0; }
+.banner-info-home > p { font-size: 1.6rem; }
+.banner-info-home > h1 { font-size: 2.4rem; margin-bottom: 15px; }
+.banner-info-home > h4 { font-size: 1.6rem; }
+.img-banner-home { margin: 0 auto 15px; width: 300px; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.bg-about-home { padding: 15px 15px 0; }
+.about-img-home > img { margin: 0 auto 15px; width: 100%; }
+.about-heading-desc-home > h2 { font-size: 2.4rem; line-height: 1.4; margin-bottom: 15px; }
+.about-heading-desc-home > h2 > span { display: inline; }
+.about-heading-desc-home > p { font-size: 1.6rem; margin-bottom: 15px; }
+.read-view-more { margin-bottom: 15px; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.bg-services-home { padding: 15px 15px 0; }
+.services-logo-pattern-home { display: none; }
+.services-heading-desc-home > h2 { font-size: 2.4rem; line-height: 1.4; margin-bottom: 15px; }
+.services-heading-desc-home > p { font-size: 1.6rem; margin-bottom: 15px; }
+.website-development-service-circle, 
+.app-development-service-circle, 
+.software-development-service-circle, 
+.seo-service-circle, 
+.digital-marketing-service-circle,
+.cloud-computing-service-circle,
+.box-services-home { margin-bottom: 15px; }
+.box-app-development-services-home, 
+.box-seo-services-home,
+.box-cloud-computing-services-home { margin-top: 0; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Blog Section Starts -------*/
+
+.bg-blog-home { padding: 15px 15px 30px; }
+.blog-heading-home > h2 { font-size: 2.4rem; line-height: 1.4; margin-bottom: 15px; }
+.blog-heading-home > h2 > span:last-child { display: inline; }
+.blog-desc-home > p { font-size: 1.6rem; margin-bottom: 15px; }
+.box-blog-img-home,
+.box-blog-info-home { width: 100%; }
+.box-blog-img-home { min-height: 300px; }
+.box-blog-img-home > a { background-position: center; -webkit-border-radius: 0 24px 0 0; -moz-border-radius: 0 24px 0 0; -ms-border-radius: 0 24px 0 0; -o-border-radius: 0 24px 0 0; border-radius: 0 24px 0 0; }
+.box-blog-info-home { padding: 15px; }
+.box-blog-info-home > h4 { font-size: 1.6rem; margin-bottom: 15px; }
+.box-blog-info-home > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.box-blog-info-home > p { font-size: 1.6rem; }
+.slick-slider-blog-home .slick-dots { bottom: -45px; }
+
+	/*------- Blog Section Ends -------*/
+
+	/*------- Testimonials Section Starts -------*/
+
+.bg-testimonials-home { padding: 15px; }
+.testimonials-heading-home > h2 { font-size: 2.4rem; line-height: 1.4; margin-bottom: 15px; }
+.testimonials-heading-home > h2 > span:last-child { display: inline; }
+.slick-slider-testimonials-home .slick-slide { padding: 0 15px; }
+.box-testimonials-info { margin: 15px 0; padding: 50px 15px 15px; }
+.slick-slider-testimonials-home .slick-dots { bottom: -30px; }
+.box-testimonials-desc > p { min-height: 108px; }
+
+	/*------- Testimonials Section Ends -------*/
+
+	/*------- Our Clients Section Starts -------*/
+
+.bg-clients-home { padding: 15px 15px 0; }
+.our-clients-heading-home > h2 { font-size: 2.4rem; line-height: 1.4; margin-bottom: 15px; }
+.our-clients-heading-home > h2 > span:last-child { display: inline; }
+.our-clients-desc-home > p { font-size: 1.6rem; margin-bottom: 15px; }
+.our-clients-map-home > img { margin-bottom: 15px; }
+.our-clients-map-home > p { font-size: 4rem; width: 100%; }
+.our-clients-map-home > p > span { font-size: 1.8rem; }
+.client-img-home > img { margin: 0 auto 30px; width: 100px; }
+
+	/*------- Our Clients Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { margin-top: 0; padding: 15px 15px 0; }
+.bg-footer-quote-home { border: 0; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; margin: 0 15px 15px; padding: 15px; }
+.footer-quote-home > p { font-size: 1.8rem; margin-bottom: 15px; text-align: center; }
+.footer-contact-read-view-more { margin-bottom: 0; text-align: center; }
+.footer-bs-heading > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.footer-bs-heading > p { font-size: 1.6rem; margin-bottom: 15px; }
+.footer-bs-heading > p::before { margin-top: 0; }
+.footer-heading > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.footer-services-listing > li > a { font-size: 1.6rem; }
+.footer-heading > a, 
+.footer-heading > p,
+.footer-heading > address > p { font-size: 1.6rem; }
+.footer-heading > a:last-child, 
+.footer-heading > p:last-child,
+.footer-heading > address > p:last-child { margin-bottom: 15px; }
+.footer-services-heading, 
+.footer-email-heading, 
+.footer-call-heading, 
+.footer-social-heading { margin-bottom: 15px; }
+.footer-social-listing > li { margin-right: 15px; }
+.footer-social-listing > li > a { font-size: 1.8rem; }
+
+	/*------- Footer Section Ends -------*/
+
+	/*------- Copyright Section Starts -------*/
+
+.bg-copyright-container-home { padding: 15px; }
+.copyright-info > p, 
+.copyright-info > p > a { font-size: 1.4rem; }
+
+	/*------- Copyright Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.bg-inner-banner { padding: 30px 15px; }
+.inner-banner-heading > h1 { font-size: 2.4rem; margin-bottom: 5px; }
+.inner-banner-heading > p > a, 
+.inner-banner-heading > p > span { font-size: 1.4rem; }
+.inner-banner-heading > p > span { padding: 0 10px; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Information Section Starts -------*/
+
+.bg-about-info-ap { padding: 15px 15px 0; }
+.about-img-ap > img { margin-bottom: 15px; }
+.about-heading-desc-ap > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.about-heading-desc-ap > h2 > span { display: inline; }
+.about-heading-desc-ap > p { font-size: 1.6rem; margin-bottom: 15px; }
+
+	/*------- About Us Information Section Ends -------*/
+
+	/*------- Vision and Mission Section Starts -------*/
+
+.box-vision-mission-ap { margin-bottom: 15px; }
+.box-vision-mission-ap > p { font-size: 1.6rem; min-height: auto; padding: 15px; }
+
+	/*------- Vision and Mission Section Ends -------*/
+
+.bg-testimonials-ip { padding: 0 15px 15px; }
+
+/*------- About Us Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+	/*------- Website Development Page Starts -------*/
+
+		/*------- Services Section Starts -------*/
+
+.bg-services-sp { padding: 15px; }
+.services-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.services-heading-sp > h2 > span { display: inline; }
+.services-desc-sp > p { font-size: 1.6rem; margin-bottom: 0; }
+
+		/*------- Services Section Ends -------*/
+
+		/*------- Services Information Section Starts -------*/
+
+.bg-services-info-sp { padding: 15px; }
+.services-information-heading-mobile-sp { display: block; }
+.services-information-heading-mobile-sp > h2 { color: #01b1ff; font: 2.4rem/1.42857143 "Montserrat-Medium"; margin-bottom: 15px; padding-top: 15px; position: relative; }
+.services-information-heading-mobile-sp > h2::before { background-color: #01b1ff; content: ""; height: 4px; left: 0; position: absolute; top: 0; width: 100px; }
+.services-information-heading-sp > h2 { display: none; }
+.services-information-img-sp > img { margin-bottom: 15px; }
+.services-information-heading-sp > p { font-size: 1.6rem; margin-bottom: 15px; }
+
+		/*------- Services Information Section Ends -------*/
+
+		/*------- Our Process Section Starts -------*/
+
+.bg-our-process-sp { padding: 15px; }
+.our-process-heading > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.process-listing { display: block; margin-bottom: 0; }
+.process-listing > li { display: block; width: 100%; }
+.box-process-info::after { height: 100%; width: 1px; }
+.box-process-name > p { font-size: 1.6rem; margin: 65px 0 30px 0; }
+.box-process-name-last > p { margin-bottom: 0; }
+
+		/*------- Our Process Section Ends -------*/
+
+		/*------- Why Choose Us Section Starts -------*/
+
+.bg-why-choose-us-sp { padding: 15px; }
+.why-choose-us-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.why-choose-us-servies-img-sp > img { margin-bottom: 15px; }
+.why-choose-us-info-sp > h3 { margin-bottom: 15px; }
+.why-chose-us-listing-sp > li { font-size: 1.6rem; margin-bottom: 10px; }
+
+		/*------- Why Choose Us Section Ends -------*/
+
+		/*------- Technology Section Starts -------*/
+
+.bg-technology-sp { padding: 15px 15px 0; }
+.technology-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.box-technologies-sp { margin-bottom: 15px; }
+.box-technologies-sp > h3 { font-size: 1.8rem; }
+
+		/*------- Technology Section Ends -------*/
+
+	/*------- Website Development Page Ends -------*/
+
+	/*------- Software Development Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-website-services-testimonials-desc > p,
+.box-software-services-testimonials-desc > p { min-height: 378px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- Software Development Page Ends -------*/
+
+	/*------- App Development Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-app-services-testimonials-desc > p { min-height: 405px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- App Development Page Ends -------*/
+
+	/*------- SEO and Digital Marketing Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-sdm-services-testimonials-desc > p { min-height: 351px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- SEO and Digital Marketing Page Ends -------*/
+
+	/*------- Cloud Hosting Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-ch-services-testimonials-desc > p { min-height: 216px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- Cloud Hosting Page Ends -------*/
+
+	/*------- Graphic Design Page Starts -------*/
+
+		/*------- Graphic Design Information Section Starts -------*/
+
+.bg-graphic-design-info-gdp { padding: 15px; }
+
+		/*------- Graphic Design Information Section Ends -------*/
+
+		/*------- What We Do Section Starts -------*/
+
+.bg-what-we-do-gdp { background-color: #ffffff; padding: 15px 15px 0; }
+.what-we-do-graphic-design-gdp > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.what-we-do-graphic-design-gdp > p { font-size: 1.6rem; margin-bottom: 30px; }
+.box-what-we-do-gdp { margin-bottom: 15px; }
+.box-what-we-do-gdp > h3 { font-size: 2rem; }
+
+		/*------- What We Do Section Ends -------*/
+
+	/*------- Graphic Design Page Ends -------*/
+
+/*------- Services Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+	/*------- Portfolio Section Starts -------*/
+
+.bg-portfolio-pp { padding: 15px 15px 0; }
+.box-portfolio { margin-bottom: 15px; }
+.box-portfolio-info > h3 { font-size: 2rem; }
+.box-portfolio-info > p { font-size: 1.6rem; }
+
+	/*------- Portfolio Section Ends -------*/
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Team Page Starts -------*/
+
+	/*------- Team Section Starts -------*/
+
+.bg-our-team-tp { padding: 15px 15px 0; }
+.box-team-member-name > h3 { font-size: 1.8rem; }
+.box-team-member-name > p { font-size: 1.4rem; }
+
+	/*------- Team Section Ends -------*/
+
+/*------- Team Page Ends -------*/
+
+/*------- Career Page Starts -------*/
+
+	/*------- Career Section Starts -------*/
+
+.bg-career-cap { padding: 15px 15px 0; }
+.career-heading-cap > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.box-career-cap { margin-bottom: 15px; }
+.box-career-cap > h3,
+.box-career-info-cap { padding: 15px; }
+.box-career-cap > h3 { font-size: 1.8rem; }
+.box-career-info-cap > p { font-size: 1.6rem; }
+
+	/*------- Career Section Ends -------*/
+
+	/*------- Job Responsibilities Section Starts -------*/
+
+.bg-job-responsibility-cap { padding: 0 15px 15px; }
+.job-responsibility-heading-cap > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.jd-listing { margin-bottom: 15px; }
+.jd-listing > li { margin: 0 15px 15px 0; padding-left: 30px; }
+.jd-listing > li::before { border: 3px solid #000; height: 20px; width: 20px; }
+.jd-listing > li.active::before { border: 10px solid #01b1ff; }
+.job-responsibility-content { -webkit-border-radius: 0 24px; -moz-border-radius: 0 24px; -ms-border-radius: 0 24px; -o-border-radius: 0 24px; border-radius: 0 24px; padding: 15px; }
+.job-description > h2 { font-size: 2.4rem; }
+.job-description > h4 { font-size: 1.6rem; margin-bottom: 15px; }
+.complete-job-desc-heading > h3 { font-size: 1.8rem; margin-bottom: 15px; }
+.complete-job-desc-listing { margin-bottom: 15px; }
+.complete-job-desc-listing > li { font-size: 1.6rem; }
+.complete-job-desc-listing > li::before { top: 5px; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+.apply-read-view-more,
+.apply-read-view-more > a { margin: 0; }
+.form-control-apply { font-size: 1.6rem; margin-bottom: 15px; }
+
+	/*------- Job Responsibilities Section Ends -------*/
+
+	/*------- Apply Section Starts -------*/
+
+.bg-apply-cap { padding: 0 15px 15px; }
+
+	/*------- Apply Section Ends -------*/
+
+	/*------- Popup Section Starts -------*/
+
+.bg-popup { padding: 30px 15px; width: 85%; }
+
+	/*------- Popup Section Ends -------*/
+
+/*------- Career Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+	/*------- Contact Information Section Starts -------*/
+
+.bg-contact-info-cp { padding: 15px; }
+.contact-heading-cp > h2 { font-size: 2.4rem; margin-bottom: 15px; }
+.address-heading-cp { margin-bottom: 15px; padding: 15px; }
+.address-heading-cp > h3 { margin-bottom: 15px; }
+.address-heading-cp > address > p { font-size: 1.6rem; }
+.media-contact-info-cp { margin: 0 0 15px; }
+.media-left-contact-info-cp { padding-right: 15px; }
+.contact-ec-info-cp:last-child { margin-bottom: 15px; }
+.contact-info-circle-cp { height: 50px; margin: 0 auto 15px; width: 50px; }
+.contact-info-circle-cp > i { font-size: 2.2rem; line-height: 50px; }
+.contact-e-info-cp > p > a,
+.contact-c-info-cp > p > a { font-size: 1.6rem; }
+.inquiry-quote > p { font-size: 1.8rem; margin-bottom: 15px; }
+.form-control-contact { font-size: 1.6rem; margin-bottom: 15px; }
+
+	/*------- Contact Information Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+
+/*------- Home Page Starts -------*/
+
+	/*------- Mobile Navbar Menu Section Starts -------*/
+
+.menu-listing-mobile { height: 50%; overflow-y: scroll; width: 75%; }
+
+	/*------- Mobile Navbar Menu Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- Career Page Starts -------*/
+
+	/*------- Popup Section Starts -------*/
+
+.form-career { max-height: 200px; min-height: 200px; }
+
+	/*------- Popup Section Ends -------*/
+
+/*------- Career Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Window Loader Section Starts -------*/
+
+.window-loader-icon > svg { margin: 0 auto; width: 100px; }
+#progstat { font-size: 1.8rem; }
+
+/*------- Window Loader Section Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.display-block-tab { display: block; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+	/*------- Desktop Logo and Navigationbar Menu Section Starts -------*/
+
+.desktop-header-logo > a > svg { width: 180px; }
+.desktop-menu-listing > li { margin-right: 7px; }
+.desktop-menu-listing > li > a { font-size: 1.2rem; }
+.desktop-submenu-listing { top: 82px; }
+
+	/*------- Desktop Logo and Navigationbar Menu Section Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.banner-info-home { margin: 30px 0; }
+.banner-info-home > h1 { font-size: 2.4rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.bg-about-home { padding: 30px 15px; }
+.about-heading-desc-home > h2 { font-size: 2.4rem; }
+.about-heading-desc-home > h2 > span { display: inline; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px 0; }
+.services-logo-pattern-home { display: none; }
+.services-heading-desc-home > h2 { font-size: 2.4rem; }
+.box-services-home { margin-bottom: 30px; }
+.box-app-development-services-home,
+.box-seo-services-home,
+.box-cloud-computing-services-home { margin-top: 0; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Blog Section Starts -------*/
+
+.bg-blog-home { padding: 30px 15px 45px; }
+.blog-heading-home > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.blog-heading-home > h2 > span:last-child { display: inline; }
+.blog-desc-home > p { margin-bottom: 30px; }
+.box-blog-img-home > a { background-position: center; }
+
+	/*------- Blog Section Ends -------*/
+
+	/*------- Testimonials Section Starts -------*/
+
+.bg-testimonials-home { padding: 30px 15px; }
+.testimonials-heading-home > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.testimonials-heading-home > h2 > span:last-child { display: inline; }
+.slick-slider-testimonials-home .slick-slide { padding: 0 15px; }
+.slick-slider-testimonials-home .slick-dots { bottom: -30px; }
+
+	/*------- Testimonials Section Ends -------*/
+
+	/*------- Our Clients Section Starts -------*/
+
+.bg-clients-home { padding: 30px 15px; }
+.our-clients-heading-home > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.our-clients-heading-home > h2 > span:last-child { display: inline; }
+.our-clients-desc-home > p { margin-bottom: 30px; }
+.our-clients-map-home > p { font-size: 5rem; }
+.our-clients-map-home > p > span { font-size: 2.4rem; }
+
+	/*------- Our Clients Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { margin-top: 70px; padding: 30px 15px; }
+.bg-footer-quote-home { margin: -102px 0 30px; }
+.footer-quote-home > p { font-size: 2.4rem; }
+.footer-bs-heading > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.footer-services-heading, 
+.footer-email-heading, 
+.footer-call-heading, 
+.footer-social-heading { margin-bottom: 30px; }
+.footer-heading > a:last-child { margin-bottom: 30px; }
+.footer-social-listing > li { margin-right: 15px; }
+
+	/*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.bg-inner-banner { padding: 30px 15px; }
+.inner-banner-heading > h1 { font-size: 2.4rem; }
+.inner-banner-heading > p > a, 
+.inner-banner-heading > p > span { font-size: 1.6rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Informations Section Starts -------*/
+
+.bg-about-info-ap { padding: 30px 15px 0; }
+.about-img-ap > img { margin: 0 auto 30px; width: 75%; }
+.about-heading-desc-ap > h2 { font-size: 2.4rem; }
+.about-heading-desc-ap > h2 > span { display: inline; }
+
+	/*------- About Us Informations Section Ends -------*/
+
+	/*------- Vision and Mission Section Starts -------*/
+
+.box-vision-mission-ap { margin-bottom: 30px; }
+.box-vision-mission-ap > p { min-height: auto; }
+
+	/*------- Vision and Mission Section Ends -------*/
+
+	/*------- Testimonial Slider Section Starts -------*/
+
+.bg-testimonials-ip { padding: 0 15px 30px; }
+
+	/*------- Testimonial Slider Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+	/*------- Website Development Page Starts -------*/
+
+		/*------- Services Section Starts -------*/
+
+.bg-services-sp { padding: 30px 15px; }
+.services-heading-sp > h2 { font-size: 2.4rem; }
+.services-heading-sp > h2 > span { display: inline; }
+.services-desc-sp > p { margin-bottom: 0; }
+
+		/*------- Services Section Ends -------*/
+
+		/*------- Services Information Section Starts -------*/
+
+.bg-services-info-sp { padding: 30px 15px; }
+.services-information-heading-mobile-sp { display: block; }
+.services-information-heading-mobile-sp > h2 { color: #01b1ff; font: 2.4rem/1.42857143 "Montserrat-Medium"; margin-bottom: 30px; padding-top: 15px; position: relative; text-align: center; }
+.services-information-heading-mobile-sp > h2::before { background-color: #01b1ff; content: ""; height: 4px; left: 50%; position: absolute; top: 0; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 100px; }
+.services-information-heading-sp > h2 { display: none; }
+.services-information-img-sp > img { margin: 0 auto 30px; }
+
+		/*------- Services Information Section Ends -------*/
+
+		/*------- Our Process Section Starts -------*/
+
+.bg-our-process-sp { padding: 30px 15px; }
+.our-process-heading > h2 { font-size: 2.4rem; margin-bottom: 40px; }
+.process-listing { display: block; margin-bottom: 0; }
+.process-listing > li { display: block; width: 100%; }
+.box-process-info::after { height: 100%; width: 1px; }
+.box-process-name > p { font-size: 1.6rem; margin: 65px 0 30px 0; }
+.box-process-name-last > p { margin-bottom: 0; }
+
+		/*------- Our Process Section Ends -------*/
+
+		/*------- Why Choose Us Section Starts -------*/
+
+.bg-why-choose-us-sp { padding: 30px 15px; }
+.why-choose-us-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+
+		/*------- Why Choose Us Section Ends -------*/
+
+		/*------- Technology Section Starts -------*/
+
+.bg-technology-sp { padding: 30px 15px 0; }
+.technology-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.box-technologies-sp > h3 { font-size: 2.2rem; }
+
+		/*------- Technology Section Ends -------*/
+
+		/*------- Testimonials Slider Section Starts -------*/
+
+.box-testimonials-info { margin: 15px 0; }
+
+		/*------- Testimonials Slider Section Ends -------*/
+
+	/*------- Website Development Page Ends -------*/
+
+	/*------- Software Development Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-website-services-testimonials-desc > p,
+.box-software-services-testimonials-desc > p { min-height: 135px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- Software Development Page Ends -------*/
+
+	/*------- App Development Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-app-services-testimonials-desc > p { min-height: 135px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- App Development Page Ends -------*/
+
+	/*------- SEO and Digital Marketing Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-sdm-services-testimonials-desc > p { min-height: 135px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- SEO and Digital Marketing Page Ends -------*/
+
+	/*------- Cloud Hosting Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-ch-services-testimonials-desc > p { min-height: 81px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- Cloud Hosting Page Ends -------*/
+
+	/*------- Graphic Design Page Starts -------*/
+
+		/*------- Graphic Design Information Section Starts -------*/
+
+.bg-graphic-design-info-gdp { padding: 30px 15px; }
+
+		/*------- Graphic Design Information Section Ends -------*/
+
+		/*------- What We Do Section Starts -------*/
+
+.bg-what-we-do-gdp { margin-bottom: 30px; padding: 30px 15px 0; }
+.what-we-do-graphic-design-gdp > h2 { font-size: 2.4rem; }
+.what-we-do-graphic-design-gdp > p { font-size: 1.6rem; }
+.box-what-we-do-gdp { margin-bottom: 30px; }
+.box-what-we-do-gdp:hover { margin-top: 0; }
+.box-what-we-do-gdp > h3 { font-size: 2rem; }
+
+		/*------- What We Do Section Ends -------*/
+
+	/*------- Graphic Design Page Ends -------*/
+
+/*------- Services Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+	/*------- Portfolio Section Starts -------*/
+
+.bg-portfolio-pp { padding: 30px 15px 0; }
+.box-portfolio-info { width: 90%; }
+.box-portfolio-info > h3 { font-size: 1.8rem; }
+.box-portfolio-info > p { font-size: 1.4rem; }
+
+	/*------- Portfolio Section Ends -------*/
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Team Page Starts -------*/
+
+	/*------- Team Section Starts -------*/
+
+.bg-our-team-tp { padding: 30px 15px 0; }
+.box-team-member-info-tp { padding: 15px; width: 85%; }
+.box-team-member-name > h3 { font-size: 2rem; }
+.box-team-member-name > p { font-size: 1.6rem; }
+
+	/*------- Team Section Ends -------*/
+
+/*------- Team Page Ends -------*/
+
+/*------- Career Page Starts -------*/
+
+	/*------- Career Section Starts -------*/
+
+.bg-career-cap { padding: 30px 15px 0; }
+.career-heading-cap > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.box-career-cap { margin-bottom: 30px; }
+.box-career-cap > h3 { font-size: 2rem; }
+
+	/*------- Career Section Ends -------*/
+
+	/*------- Job Responsibilities Section Starts -------*/
+
+.bg-job-responsibility-cap { padding: 0 15px 30px; }
+.job-responsibility-heading-cap > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.jd-listing { margin-bottom: 30px; }
+.jd-listing > li { margin: 0 15px 0 0; }
+.jd-listing > li::before { border: 3px solid #000; height: 20px; width: 20px; }
+.jd-listing > li.active::before { border: 10px solid #01b1ff; }
+.job-responsibility-content { -webkit-border-radius: 0 24px; -moz-border-radius: 0 24px; -ms-border-radius: 0 24px; -o-border-radius: 0 24px; border-radius: 0 24px; padding: 30px; }
+.job-description > h2 { font-size: 2.4rem; }
+.complete-job-desc-listing > li { font-size: 1.6rem; }
+.complete-job-desc-listing > li::before { top: 5px; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+
+	/*------- Job Responsibilities Section Ends -------*/
+
+	/*------- Apply Section Starts -------*/
+
+.bg-apply-cap { padding: 0 15px 30px; }
+.form-control-apply { margin-bottom: 30px; }
+
+	/*------- Apply Section Ends -------*/
+
+	/*------- Popup Section Starts -------*/
+
+.bg-popup { padding: 30px; width: 85%; }
+.form-career { max-height: 100%; min-height: 100%; overflow-x: hidden; overflow-y: hidden; padding: 0; }
+	
+	/*------- Popup Section Ends -------*/
+
+/*------- Career Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+	/*------- Contact Information Section Starts -------*/
+
+.bg-contact-info-cp { padding: 30px 15px; }
+.contact-heading-cp > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.address-heading-cp { margin-bottom: 30px; }
+.contact-info-circle-cp { margin: 0 auto 15px; }
+.inquiry-quote > p { font-size: 2.2rem; }
+
+	/*------- Contact Information Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Window Loader Section Starts -------*/
+
+.window-loader-icon > svg { margin: 0 auto; width: 100px; }
+#progstat { font-size: 1.8rem; }
+
+/*------- Window Loader Section Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+	/*------- Desktop Logo and Navigationbar Menu Section Starts -------*/
+
+.desktop-header-logo > a > svg { width: 180px; }
+.desktop-menu-listing > li { margin-right: 25px; }
+.desktop-menu-listing > li > a { font-size: 1.6rem; }
+.desktop-submenu-listing { top: 82px; }
+
+	/*------- Desktop Logo and Navigationbar Menu Section Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.banner-info-home { margin: 30px 0; }
+.banner-info-home > h1 { font-size: 3rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.bg-about-home { padding: 30px 15px; }
+.about-heading-desc-home > h2 { font-size: 2.4rem; }
+.about-heading-desc-home > h2 > span { display: inline; }
+.about-heading-desc-home > p { text-align: justify; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- Services Section Starts -------*/
+
+.bg-services-home { padding: 30px 15px 0; }
+.services-logo-pattern-home { display: none; }
+.services-heading-desc-home > h2 { font-size: 2.4rem; }
+.box-services-home { margin-bottom: 30px; }
+.box-app-development-services-home,
+.box-seo-services-home,
+.box-cloud-computing-services-home { margin-top: 0; }
+
+	/*------- Services Section Ends -------*/
+
+	/*------- Blog Section Starts -------*/
+
+.bg-blog-home { padding: 30px 15px 45px; }
+.blog-heading-home > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.blog-heading-home > h2 > span:last-child { display: inline; }
+.blog-desc-home > p { margin-bottom: 30px; }
+.box-blog-img-home > a { background-position: center; }
+
+	/*------- Blog Section Ends -------*/
+
+	/*------- Testimonials Section Starts -------*/
+
+.bg-testimonials-home { padding: 30px 15px; }
+.testimonials-heading-home > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.testimonials-heading-home > h2 > span:last-child { display: inline; }
+.box-testimonials-info { margin: 15px 0; }
+.box-testimonials-desc > p { min-height: 81px; }
+.slick-slider-testimonials-home .slick-slide { padding: 0 15px; }
+.slick-slider-testimonials-home .slick-dots { bottom: -30px; }
+
+	/*------- Testimonials Section Ends -------*/
+
+	/*------- Our Clients Section Starts -------*/
+
+.bg-clients-home { padding: 30px 15px; }
+.our-clients-heading-home > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.our-clients-heading-home > h2 > span:last-child { display: inline; }
+.our-clients-desc-home > p { margin-bottom: 30px; }
+.our-clients-map-home > p { font-size: 5rem; }
+.our-clients-map-home > p > span { font-size: 2.4rem; }
+
+	/*------- Our Clients Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer-home { margin-top: 70px; padding: 30px 15px; }
+.bg-footer-quote-home { margin: -102px 0 30px; }
+.footer-quote-home > p { font-size: 2.4rem; }
+.footer-bs-heading > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.footer-services-heading, 
+.footer-email-heading, 
+.footer-call-heading, 
+.footer-social-heading { margin-bottom: 30px; }
+.footer-heading > a:last-child { margin-bottom: 30px; }
+
+	/*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.bg-inner-banner { padding: 30px 15px; }
+.inner-banner-heading > h1 { font-size: 3rem; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- About Us Informations Section Starts -------*/
+
+.bg-about-info-ap { padding: 30px 15px 0; }
+.about-heading-desc-ap > h2 { font-size: 2.4rem; }
+
+	/*------- About Us Informations Section Ends -------*/
+
+	/*------- Vision and Mission Section Starts -------*/
+
+.box-vision-mission-ap { margin-bottom: 30px; }
+.box-vision-mission-ap > p { min-height: 330px; }
+
+	/*------- Vision and Mission Section Ends -------*/
+
+	/*------- Testimonial Slider Section Starts -------*/
+
+.bg-testimonials-ip { padding: 0 15px 30px; }
+
+	/*------- Testimonial Slider Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+	/*------- Website Development Page Starts -------*/
+
+		/*------- Services Section Starts -------*/
+
+.bg-services-sp { padding: 30px 15px; }
+.services-heading-sp > h2 { font-size: 2.4rem; }
+.services-heading-sp > h2 > span { display: inline; }
+.services-desc-sp > p { margin-bottom: 0; }
+
+		/*------- Services Section Ends -------*/
+
+		/*------- Services Information Section Starts -------*/
+
+.bg-services-info-sp { padding: 30px 15px; }
+.services-information-heading-mobile-sp { display: block; }
+.services-information-heading-mobile-sp > h2 { color: #01b1ff; font: 2.4rem/1.42857143 "Montserrat-Medium"; margin-bottom: 30px; padding-top: 15px; position: relative; }
+.services-information-heading-mobile-sp > h2::before { background-color: #01b1ff; content: ""; height: 4px; left: 0; position: absolute; top: 0; width: 100px; }
+.services-information-heading-sp > h2 { display: none; }
+
+		/*------- Services Information Section Ends -------*/
+
+		/*------- Our Process Section Starts -------*/
+
+.bg-our-process-sp { padding: 30px 15px; }
+.our-process-heading > h2 { font-size: 2.4rem; margin-bottom: 40px; }
+.process-listing { margin-bottom: 0; }
+.box-process-info::after { height: 100%; width: 1px; }
+.box-process-name > p { font-size: 1.6rem; margin: 65px 0 0; }
+.box-process-name-last > p { margin-bottom: 0; }
+
+		/*------- Our Process Section Ends -------*/
+
+		/*------- Why Choose Us Section Starts -------*/
+
+.bg-why-choose-us-sp { padding: 30px 15px; }
+.why-choose-us-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+
+		/*------- Why Choose Us Section Ends -------*/
+
+		/*------- Technology Section Starts -------*/
+
+.bg-technology-sp { padding: 30px 15px 0; }
+.technology-heading-sp > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.box-technologies-sp > h3 { font-size: 2.2rem; }
+
+		/*------- Technology Section Ends -------*/
+
+	/*------- Website Development Page Ends -------*/
+
+	/*------- Software Development Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-website-services-testimonials-desc > p,
+.box-software-services-testimonials-desc > p { min-height: 216px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- Software Development Page Ends -------*/
+
+	/*------- App Development Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-app-services-testimonials-desc > p { min-height: 243px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- App Development Page Ends -------*/
+
+	/*------- SEO and Digital Marketing Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-sdm-services-testimonials-desc > p { min-height: 216px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- SEO and Digital Marketing Page Ends -------*/
+
+	/*------- Cloud Hosting Page Starts -------*/
+
+		/*------- Testimonial Section Starts -------*/
+
+.box-ch-services-testimonials-desc > p { min-height: 108px; }
+
+		/*------- Testimonial Section Ends -------*/
+
+	/*------- Cloud Hosting Page Ends -------*/
+
+	/*------- Graphic Design Page Starts -------*/
+
+		/*------- Graphic Design Information Section Starts -------*/
+
+.bg-graphic-design-info-gdp { padding: 30px 15px; }
+
+		/*------- Graphic Design Information Section Ends -------*/
+
+		/*------- What We Do Section Starts -------*/
+
+.bg-what-we-do-gdp { margin-bottom: 30px; padding: 30px 15px 0; }
+.what-we-do-graphic-design-gdp > h2 { font-size: 2.4rem; }
+.what-we-do-graphic-design-gdp > p { font-size: 1.6rem; }
+.box-what-we-do-gdp { margin-bottom: 30px; }
+.box-what-we-do-gdp:hover { margin-top: 0; }
+
+		/*------- What We Do Section Ends -------*/
+
+	/*------- Graphic Design Page Ends -------*/
+
+/*------- Services Page Ends -------*/
+
+/*------- Portfolio Page Starts -------*/
+
+	/*------- Portfolio Section Starts -------*/
+
+.bg-portfolio-pp { padding: 30px 15px 0; }
+.box-portfolio-info > h3 { font-size: 2rem; }
+.box-portfolio-info > p { font-size: 1.6rem; }
+
+	/*------- Portfolio Section Ends -------*/
+
+/*------- Portfolio Page Ends -------*/
+
+/*------- Team Page Starts -------*/
+
+	/*------- Team Section Starts -------*/
+
+.bg-our-team-tp { padding: 30px 15px 0; }
+.box-team-member-info-tp { padding: 15px; width: 85%; }
+.box-team-member-info-tp > h3 { font-size: 2rem; }
+.team-member-social-account > li { margin-right: 10px; }
+
+	/*------- Team Section Ends -------*/
+
+/*------- Team Page Ends -------*/
+
+/*------- Career Page Starts -------*/
+
+	/*------- Career Section Starts -------*/
+
+.bg-career-cap { padding: 30px 15px 0; }
+.career-heading-cap > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.box-career-cap { margin-bottom: 30px; }
+.box-career-cap > h3 { font-size: 2.2rem; }
+
+	/*------- Career Section Ends -------*/
+
+	/*------- Job Responsibilities Section Starts -------*/
+
+.bg-job-responsibility-cap { padding: 0 15px 30px; }
+.job-responsibility-heading-cap > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.jd-listing { margin-bottom: 30px; }
+.jd-listing > li { margin: 0 15px 0 0; }
+.jd-listing > li::before { border: 3px solid #000; height: 20px; width: 20px; }
+.jd-listing > li.active::before { border: 10px solid #01b1ff; }
+.job-responsibility-content { -webkit-border-radius: 0 24px; -moz-border-radius: 0 24px; -ms-border-radius: 0 24px; -o-border-radius: 0 24px; border-radius: 0 24px; padding: 30px; }
+.job-description > h2 { font-size: 2.4rem; }
+.complete-job-desc-listing > li { font-size: 1.6rem; }
+.complete-job-desc-listing > li::before { top: 5px; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
+
+	/*------- Job Responsibilities Section Ends -------*/
+
+	/*------- Apply Section Starts -------*/
+
+.bg-apply-cap { padding: 0 15px 30px; }
+.form-control-apply { margin-bottom: 30px; }
+
+	/*------- Apply Section Ends -------*/
+
+	/*------- Popup Section Starts -------*/
+
+.bg-popup { padding: 30px; width: 85%; }
+.form-career { max-height: 100%; min-height: 100%; overflow-x: hidden; overflow-y: hidden; padding: 0; }
+	
+	/*------- Popup Section Ends -------*/
+
+/*------- Career Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+	/*------- Contact Information Section Starts -------*/
+
+.bg-contact-info-cp { padding: 30px 15px; }
+.contact-heading-cp > h2 { font-size: 2.4rem; margin-bottom: 30px; }
+.address-heading-cp { margin-bottom: 30px; }
+.address-heading-cp > address { min-height: 165px; }
+.contact-info-circle-cp { margin: 0 auto 15px; }
+.inquiry-quote > p { font-size: 2.2rem; }
+
+	/*------- Contact Information Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+/*------- Career Page Starts -------*/
+
+	/*------- Popup Section Starts -------*/
+
+.form-career { max-height: 100%; min-height: 100%; overflow-x: hidden; overflow-y: hidden; padding: 0; }
+
+	/*------- Popup Section Ends -------*/
+
+/*------- Career Page Ends -------*/
+
+}
